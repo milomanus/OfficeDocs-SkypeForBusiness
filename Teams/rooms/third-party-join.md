@@ -64,6 +64,9 @@ For a complete list of URLs to add to your ATP Safe Links "do not rewrite" list 
 > [!CAUTION]
 > Only add URLs that you trust to your ATP Safe Links "do not rewrite" list or third-party URL rewrite exception list.
 
+Note:
+To enable one-touch join experience for native Teams meetings originating from outside your organization, you also need to add https://teams.microsoft.com/* URLs to the ATP Safe Links "do not rewrite" list.
+
 ## Step 3: Enable third-party meetings on device
 
 The last step you need to do is allow each Teams Rooms device to join third-party meetings. Third-party meetings require a username and email address to join them. If the username and email address that you need to use is different than the device's room mailbox, you need to add them to your device. You can do this in the device settings or in the XML config file.
